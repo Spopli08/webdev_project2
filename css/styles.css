@@ -1,0 +1,12 @@
+@import url('https://weloveiconfonts.com/api/?family=entypo|fontawesome');
+
+body {
+  background-image: url("../media/5065282.jpg");
+  background-size: cover;
+  background-position: center top; 
+  font-family: 'Lato', Helvetica, sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
