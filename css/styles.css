@@ -79,3 +79,33 @@ ul li a:hover {
 .personal-info a:hover {
   text-decoration: underline;
 }
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #05d9e8;
+  text-align: center;
+  margin-top: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  color: rgb(251, 250, 250);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+p, ul li {
+  font-size: 16px;
+  color: rgb(254, 254, 254);
+}
+
+section {
+  background-color: rgb(48, 47, 47);
+  margin: 40px auto;
+  padding: 30px;
+  width: 75%;
+  box-shadow: 0 8px 16px rgba(23, 23, 23, 0.1);
+  border-radius: 12px;
+}
+
