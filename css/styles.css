@@ -38,3 +38,44 @@ ul li a:hover {
   color: #05d9e8;
   border-bottom: 2px solid #05d9e8;
 }
+
+.personal-info {
+  max-width: 400px;
+  margin: 10 auto;
+  padding: 20px; 
+  background: linear-gradient(135deg, #383839, #2c2b2c);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  border-radius: 15px;
+  text-align: center; 
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.personal-info:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); 
+}
+
+.personal-info h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #05d9e8; 
+  margin-bottom: 10px;
+}
+
+.personal-info p {
+  margin: auto;
+  font-size: 16px;
+  color: #ddd; 
+}
+
+/* Email Link */
+.personal-info a {
+  color: #05d9e8;
+  text-decoration: blink;
+  font-weight: bold;
+}
+
+.personal-info a:hover {
+  text-decoration: underline;
+}
