@@ -41,7 +41,7 @@ ul li a:hover {
 
 .personal-info {
   max-width: 400px;
-  margin: 10 auto;
+  margin: 10 auto 0;
   padding: 20px; 
   background: linear-gradient(135deg, #383839, #2c2b2c);
   box-shadow: 0 0.5em 1em rgba(23, 23, 23, 0.1); 
