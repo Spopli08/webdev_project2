@@ -8,7 +8,6 @@ body {
   line-height: 1.8;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 ul {
@@ -163,4 +162,51 @@ video {
 
 .register:hover {
   background-color: #03b9c6;
+}
+
+.concert_page {
+  width: 900px; 
+  margin: 0 auto; 
+  padding: 0rem; 
+  background-image: url("../media/10853.jpg");
+  background-size: cover;
+}
+
+.concert_page h1 {
+  font-size: 3em;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-top: 2.5px;
+}
+
+section.concert {
+  background-color: rgba(40, 40, 40, 0.9);
+  padding: 2rem;
+  margin: 1.5rem 0;
+  border-radius: 12px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%; 
+}
+
+section.concert h2 {
+  font-size: 1.8rem; 
+  color: #05d9e8; 
+  margin-bottom: 1rem;
+}
+
+section.concert p {
+  font-size: 1rem;
+  color: #ffffff; 
+  margin-top: 1rem;
+}
+
+section.concert img, section.concert video {
+  width: 100%; 
+  max-width: 700px; 
+  height: 500px; 
+  display: block;
+  margin: 0 auto 1rem auto; 
+  border-radius: 8px; 
+  object-fit: cover; 
 }
