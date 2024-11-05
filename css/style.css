@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 body {
-  background-image: url("../media/5065282.jpg");
+  background-image: url("../media/background.jpg");
   background-size: cover;
   background-position: center top; 
   font-family: 'Lato', Helvetica, sans-serif;
@@ -126,7 +126,7 @@ section {
 
 .content li:before {
   font-family: 'Material Icons';
-  content: '\e5cc'; /* Change the icon by referencing Material Icons' code points */
+  content: '\e5cc'; 
   color: #05d9e8;
   position: absolute;
   left: 0;
@@ -168,7 +168,7 @@ video {
   width: 900px; 
   margin: 0 auto; 
   padding: 0rem; 
-  background-image: url("../media/10853.jpg");
+  background-image: url("../media/music.jpg");
   background-size: cover;
 }
 
